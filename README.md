@@ -17,9 +17,9 @@ Boilerplate using React Native + Typescript + GraphQL
 ## Installation
 
 ```sh
-cd react-native-boilerplate
+cd react-native-typescript-graphql
 yarn install && cd ios && pod install
-yearn ios
+yarn ios
 ```
 
 For running graphql server

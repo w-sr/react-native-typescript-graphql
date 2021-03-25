@@ -1,0 +1,78 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@screens/*": [
+        "screens/*"
+      ],
+      "@screens": [
+        "screens"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@components": [
+        "components"
+      ],
+      "@context/*": [
+        "context/*"
+      ],
+      "@context": [
+        "context"
+      ],
+      "@lib/*": [
+        "lib/*"
+      ],
+      "@lib": [
+        "lib"
+      ],
+      "@graphql/*": [
+        "graphql/*"
+      ],
+      "@graphql": [
+        "graphql"
+      ],
+      "@theme": [
+        "./theme"
+      ],
+      "@theme/*": [
+        "./theme/*"
+      ],
+      "@routes": [
+        "routes"
+      ],
+      "@routes/*": [
+        "routes/*"
+      ],
+    },
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin"
+      }
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}

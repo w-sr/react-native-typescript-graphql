@@ -25,7 +25,7 @@ yarn ios
 For running graphql server
 
 ```sh
-cd react-native-boilderplate
+cd react-native-typescript-graphql
 json-graphql-server graphql-server.json --p 5000
 ```
 
